@@ -3,5 +3,9 @@
     "psr-4": {
       "Purify\\": "src/Purefiy"
     }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit --verbose tests",
+    "serve": "php -S localhost:8000 -t public"
   }
 }
